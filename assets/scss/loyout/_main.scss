@@ -1,0 +1,78 @@
+.main__container{
+  display: flex;
+  width: 100%;
+
+  &-brand{
+      display: flex;
+      width: 70%;
+      position: relative;
+  }
+
+  &-image{
+      display: flex;
+      width: 30%;
+      position: relative;
+  }
+
+}
+
+.container__brand-text{
+  padding: 2% 10%;
+  width: 50%;
+
+  h3{
+      padding: $sp5 0;
+  }
+}
+
+.container__brand-map{
+  background-color: $blue-de-france;
+  width: 50%;
+  height: 70%;
+  position: absolute;
+  top: 0;
+  right: 0;
+
+  img{
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 30px;
+      right: 60px;
+      z-index: 1;
+  }
+}
+
+
+.container__image-1{
+  width: 120px;
+  height: 220px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  
+  
+
+  img{
+      width: 100px;
+      height: 160px;
+      object-fit: cover;
+      position: absolute;
+      right: 65px;
+      z-index: 2;
+      
+  }
+}
+
+.container__image-2{
+  width: 100%;
+  height: 350px;
+
+  img{
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+  }
+}
+
+

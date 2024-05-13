@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Mono&family=Roboto:wght@300&display=swap');
+
+h1{
+    @include format-font($fs1, $mono-regular, $black)
+}
+
+h2{
+    @include format-font($fs2, $mono-regular, $black)
+}
+
+h3{
+    @include format-font($fs3, $mono-regular, $black)
+}
+
+h4{
+    @include format-font($fs4, $roboto-ligth, $black)
+}
+
+p{
+    @include format-font($fs5, $roboto-ligth, $black)
+}
+
+a{
+    @include format-font($fs5, $mono-regular, $spanish-gray)
+}

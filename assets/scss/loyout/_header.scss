@@ -1,0 +1,59 @@
+.header{
+  display: flex;
+  width: 100%;
+
+  &__hero{
+      width: 70%;
+      position: relative;
+  }
+
+  &__hero-image{
+      width: 100%;
+      height: 350px;
+
+      img{
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+      }
+  }
+
+  &__hero-text{
+      display: grid;
+      grid-template-columns:100px 100px 150px;
+      grid-column-gap:30px;
+      padding:$sp3 $sp5 ;
+      background-color: $white;
+      position: absolute;
+      bottom: 0;
+      right: 0;
+  }
+
+  &__brand{
+      width: 30%;
+      padding: 30px 45px;
+      position: relative;
+  }
+
+  &__brand-arrow{
+      background-color: $buff;
+      width: 100px;
+      height: 100px;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+
+      .fa-solid{
+          background-color: $flame;
+          color: $white;
+          width: 100px;
+          height: 100px;
+          font-size: $fs1;
+          padding: $sp3;
+          position: absolute;
+          bottom: 20px;
+          right: 15px;
+      }
+  }
+  
+}

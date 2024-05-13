@@ -1,0 +1,22 @@
+.navbar{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: $sp5 10%;
+
+
+  &__container{
+  align-items: center;
+  display: flex;
+  gap: $sp5;
+
+  &-image{
+      width: 40px;
+  }
+
+  &-text:hover{
+      color: $black;
+  }
+  }
+}

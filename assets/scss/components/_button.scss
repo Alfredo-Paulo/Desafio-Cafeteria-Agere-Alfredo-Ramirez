@@ -1,0 +1,28 @@
+.btn{
+  padding: $sp2;
+  font-family: $mono-regular;
+  
+
+  &--primary{
+      background-color: $white;
+      border: 1px solid $spanish-gray;
+      color: $spanish-gray;
+      margin: 0 $sp5;
+
+      &:hover{
+          color: $black;
+          border: 1px solid $black;
+      }
+  }
+
+  &--secondary{
+      background-color: $shiny-shamrock;
+      border: none;
+      color: $white;
+
+      &:hover{
+          background-color: $touquoise;
+          color: $outer-space;
+      }
+  }
+}
